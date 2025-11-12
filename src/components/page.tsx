@@ -3,36 +3,37 @@ import { Code, Copy, ExternalLink } from 'lucide-react';
 
 const user = {
   name: 'Ashwani Verma',
-  bio: 'Full-stack developer passionate about building amazing web experiences.',
-  email: 'ashwani@example.com',
+  bio: ' Building products to create small impacts in life . Available for monthly retainer and freelance projects.',
+  email: 'av1710334@gmail.com',
   projects: [
     {
       id: '1',
-      name: 'Project One',
-      description: 'An awesome project that does something incredible.',
-      link: 'https://example.com/project1',
+      name: 'Indiegrowth',
+      description: 'Write tweets that grow your brand.',
+      link: 'https://indiegrowth.app',
     },
     {
       id: '2',
-      name: 'Project Two',
-      description: 'Another cool project showcasing my skills.',
-      link: 'https://example.com/project2',
+      name: 'jukeboxduo',
+      description: 'Play music with your friends in perfect sync.',
+      link: 'https://jukeboxduo.com',
     },
     {
       id: '3',
-      name: 'Project Three',
-      description: 'A third project with interesting features.',
-      link: 'https://example.com/project3',
+      name: 'Devpage',
+      description: 'Build your portfolio in minutes.',
+      link: 'https://devpage.in',
     },
   ],
 };
 
 const socials = [
   {
-    twitter: 'twitter.com/yourhandle',
-    github: 'github.com/yourhandle',
-    linkedin: 'linkedin.com/in/yourhandle',
-    instagram: 'instagram.com/yourhandle',
+    twitter: 'x.com/ashwanivermax',
+    github: 'https://github.com/ashwaniverma-github',
+    linkedin: 'https://www.linkedin.com/in/ashwani-verma-ba2659326',
+    instagram: 'https://www.instagram.com/ashwani.vermax',
+    contra: 'https://contra.com/ashwaniverma/work?r=ashwaniverma',
   },
 ];
 // ======================================================
@@ -117,10 +118,10 @@ function Footer() {
         <h2 className="text-xl sm:text-2xl mb-4">Get in touch</h2>
 
         <div className="flex items-center border border-gray-300 rounded-lg p-3 w-full mb-6 mt-2">
-          <p className="flex-grow font-semibold truncate mr-2">{email}</p>
+          <p className=" grow font-semibold truncate mr-2">{email}</p>
           <button
             onClick={copyToClipboard}
-            className="text-blue-600 hover:text-blue-800 flex items-center space-x-1"
+            className="text-blue-600 cursor-pointer hover:text-blue-800 flex items-center space-x-1"
           >
             {copied ? 'Copied!' : 'Copy'}
             <Copy size={18} />
@@ -141,7 +142,7 @@ function Footer() {
                     href={link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-lg underline text-gray-700 hover:text-gray-900 social-link"
+                    className="text-lg  text-gray-700 hover:text-gray-900 social-link"
                   >
                     {capitalizedKey}
                   </a>
