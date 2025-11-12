@@ -1,0 +1,17 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+
+# Host
+Host: https://ashwaniv.me
+
+# Sitemaps
+Sitemap: https://ashwaniv.me/sitemap.xml
+Sitemap: https://indiegrowth.app/sitemap.xml
+Sitemap: https://jukeboxduo.com/sitemap.xml
+Sitemap: https://devpage.in/sitemap.xml
