@@ -3,7 +3,7 @@ import { Code, Copy, ExternalLink } from 'lucide-react';
 
 const user = {
   name: 'Ashwani Verma',
-  bio: ' Building products to create small impacts in life . Available for monthly retainer and freelance projects.',
+  bio: ' Building products to create small impacts in life. Available for monthly retainer and freelance projects.',
   email: 'av1710334@gmail.com',
   projects: [
     {
