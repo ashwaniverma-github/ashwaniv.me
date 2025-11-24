@@ -52,12 +52,12 @@ function Hero() {
   return (
     <div className="flex flex-col items-start">
       <h1 className="font-semibold mb-6 text-2xl sm:text-3xl">{user.name}</h1>
-      
+
       <p className="text-base sm:text-lg mb-6">{user.bio}</p>
       <div className="bg-gray-300 w-full h-px mb-4"></div>
       <div className="flex items-center space-x-2 mb-4">
         <h2 className="font-serif text-xl sm:text-2xl mt-2">My Creations</h2>
-        <Code size={24}  className='mt-3' />
+        <Code size={24} className='mt-3' />
       </div>
     </div>
   );
@@ -128,14 +128,24 @@ function Footer() {
           </button>
         </div>
 
+        <a
+          href="https://cal.com/ashwanivermax/quick-call"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center w-full border border-gray-300 rounded-lg p-3 mb-6 hover:bg-gray-50 transition-colors text-gray-700"
+        >
+          <span className="font-semibold mr-2">Book a quick call</span>
+          <ExternalLink size={18} />
+        </a>
+
         <div className="flex flex-wrap gap-4 mt-2">
           {socials && socials.length > 0 && socials[0] && (
             Object.entries(socials[0])
-            //@ts-ignore
+              //@ts-ignore
               .filter(([key, value]) => key !== 'id' && key !== 'userId' && value.trim() !== '')
               .map(([key, value]) => {
                 const link = ensureUrlProtocol(value as string);
-                const capitalizedKey = key.charAt(0).toUpperCase() + key.slice(1); 
+                const capitalizedKey = key.charAt(0).toUpperCase() + key.slice(1);
                 return link ? (
                   <a
                     key={key}
