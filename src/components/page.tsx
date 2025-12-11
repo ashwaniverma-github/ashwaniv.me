@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Code, Copy, ExternalLink } from 'lucide-react';
+import Script from 'next/script';
 
 const user = {
   name: 'Ashwani Verma',
@@ -44,6 +45,17 @@ export const CentreUpslider = () => {
       <Hero />
       <ProjectsList />
       <Footer />
+      <Script
+        src="https://www.feedinbox.com/widget.js"
+        strategy="lazyOnload"
+      />
+      <Script id="feedinbox-config">
+        {`
+          window.feedinboxConfig = {
+            projectKey: "cmj0stzxh000cnruladng1ptx"
+          };
+        `}
+      </Script> 
     </div>
   );
 };
