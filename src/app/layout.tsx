@@ -70,7 +70,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{children}
       <Script
         src="https://www.feedinbox.com/widget.js"
         strategy="lazyOnload"
@@ -82,6 +82,8 @@ export default function RootLayout({
           };
         `}
       </Script> 
+      </body>
+      
     </html>
   )
 }
