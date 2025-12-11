@@ -72,7 +72,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>{children}</body>
       <Script
-        src="http://feedinbox.com/widget.js"
+        src="https://www.feedinbox.com/widget.js"
         strategy="lazyOnload"
       />
       <Script id="feedinbox-config">
