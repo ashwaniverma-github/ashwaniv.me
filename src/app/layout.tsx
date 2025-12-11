@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-
+import Script from 'next/script'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -71,6 +71,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <Script
+        src="http://feedinbox.com/widget.js"
+        strategy="lazyOnload"
+      />
+      <Script id="feedinbox-config">
+        {`
+          window.feedinboxConfig = {
+            projectKey: "cmj0sni0v0008nrulr97vq5oy"
+          };
+        `}
+      </Script>
     </html>
   )
 }
