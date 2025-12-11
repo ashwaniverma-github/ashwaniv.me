@@ -81,7 +81,7 @@ export default function RootLayout({
             projectKey: "cmj0stzxh000cnruladng1ptx"
           };
         `}
-      </Script>
+      </Script> 
     </html>
   )
 }
