@@ -78,7 +78,7 @@ export default function RootLayout({
       <Script id="feedinbox-config">
         {`
           window.feedinboxConfig = {
-            projectKey: "cmj0sni0v0008nrulr97vq5oy"
+            projectKey: "cmj0stzxh000cnruladng1ptx"
           };
         `}
       </Script>
