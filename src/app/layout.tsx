@@ -77,14 +77,14 @@ export default function RootLayout({
         <Script id="feedinbox-config" strategy="afterInteractive">
           {`
             window.feedinboxConfig = {
-              projectKey: "cmj134bvi00052ax35na091bc"
+              projectKey: "cmj2jz35p0008ujakd4smyoyh"
             };
           `}
         </Script>
 
         {/* 2. Widget Script */}
         <Script
-          src="https://www.feedinbox.com/widget.js"
+          src="http://localhost:3000/widget.js"
           strategy="lazyOnload"
         />
         

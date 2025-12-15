@@ -8,18 +8,24 @@ const user = {
   projects: [
     {
       id: '1',
+      name: 'Feedinbox',
+      description: 'Collect user feedback to your inbox',
+      link: 'https://feedinbox.com',
+    },
+    {
+      id: '2',
       name: 'Indiegrowth',
       description: 'Write tweets that grow your brand.',
       link: 'https://indiegrowth.app',
     },
     {
-      id: '2',
+      id: '3',
       name: 'jukeboxduo',
       description: 'Play music with your friends in perfect sync.',
       link: 'https://jukeboxduo.com',
     },
     {
-      id: '3',
+      id: '4',
       name: 'Devpage',
       description: 'Build your portfolio in minutes.',
       link: 'https://devpage.in',
