@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <CentreUpslider/>
-      <Feedinbox projectKey='cmjdvw2bb0003vi28g7rah1j4' ></Feedinbox>
+      <Feedinbox projectKey='cmjdvw2bb0003vi28g7rah1j4'></Feedinbox>
     </div>
   );
 }
