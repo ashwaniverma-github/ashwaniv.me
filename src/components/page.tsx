@@ -41,7 +41,7 @@ const socials = [
     twitter: 'x.com/ashwanivermax',
     github: 'https://github.com/ashwaniverma-github',
     linkedin: 'https://www.linkedin.com/in/ashwani-verma-ba2659326',
-    instagram: 'https://www.instagram.com/ashwani.vermax',
+    instagram: 'https://www.instagram.com/ashwanivermax',
     contra: 'https://contra.com/ashwaniverma/work?r=ashwaniverma',
   },
 ];
